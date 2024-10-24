@@ -63,9 +63,9 @@ PokemonClass currentPokemon;
 
 while (true)
 {
-    currentPokemon = pokemonTypes[random.Next(0, pokemonTypes.Length)];
+    // currentPokemon = pokemonTypes[random.Next(0, pokemonTypes.Length)];
 
-    Console.WriteLine($"You encountered a wild {currentPokemon.Name}!");
+    // Console.WriteLine($"You encountered a wild {currentPokemon.Name}!");
 
     while (true)
     {
